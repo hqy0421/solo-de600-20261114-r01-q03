@@ -3,7 +3,7 @@
 from os.path import exists
 from setuptools import setup
 
-packages = ['streamz', 'streamz.dataframe']
+packages = ['streamz', 'streamz.cep', 'streamz.dataframe']
 
 tests = [p + '.tests' for p in packages]
 
